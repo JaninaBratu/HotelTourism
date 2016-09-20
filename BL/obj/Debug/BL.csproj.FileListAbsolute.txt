@@ -1,0 +1,10 @@
+E:\.Net Trainning\HotelTourism\HotelTourism\BL\bin\Debug\BL.dll.config
+E:\.Net Trainning\HotelTourism\HotelTourism\BL\bin\Debug\BL.dll
+E:\.Net Trainning\HotelTourism\HotelTourism\BL\bin\Debug\BL.pdb
+E:\.Net Trainning\HotelTourism\HotelTourism\BL\bin\Debug\EntityFramework.dll
+E:\.Net Trainning\HotelTourism\HotelTourism\BL\bin\Debug\EntityFramework.SqlServer.dll
+E:\.Net Trainning\HotelTourism\HotelTourism\BL\bin\Debug\EntityFramework.xml
+E:\.Net Trainning\HotelTourism\HotelTourism\BL\bin\Debug\EntityFramework.SqlServer.xml
+E:\.Net Trainning\HotelTourism\HotelTourism\BL\obj\Debug\BL.csprojResolveAssemblyReference.cache
+E:\.Net Trainning\HotelTourism\HotelTourism\BL\obj\Debug\BL.dll
+E:\.Net Trainning\HotelTourism\HotelTourism\BL\obj\Debug\BL.pdb
