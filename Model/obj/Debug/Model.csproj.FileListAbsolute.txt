@@ -8,12 +8,3 @@ E:\.Net Trainning\HotelTourism\HotelTourism\Model\bin\Debug\EntityFramework.SqlS
 E:\.Net Trainning\HotelTourism\HotelTourism\Model\obj\Debug\Model.csprojResolveAssemblyReference.cache
 E:\.Net Trainning\HotelTourism\HotelTourism\Model\obj\Debug\Model.dll
 E:\.Net Trainning\HotelTourism\HotelTourism\Model\obj\Debug\Model.pdb
-E:\.Net Trainning\HotelApp\HotelTourism\Model\bin\Debug\Model.dll.config
-E:\.Net Trainning\HotelApp\HotelTourism\Model\bin\Debug\Model.dll
-E:\.Net Trainning\HotelApp\HotelTourism\Model\bin\Debug\Model.pdb
-E:\.Net Trainning\HotelApp\HotelTourism\Model\bin\Debug\EntityFramework.dll
-E:\.Net Trainning\HotelApp\HotelTourism\Model\bin\Debug\EntityFramework.SqlServer.dll
-E:\.Net Trainning\HotelApp\HotelTourism\Model\bin\Debug\EntityFramework.xml
-E:\.Net Trainning\HotelApp\HotelTourism\Model\bin\Debug\EntityFramework.SqlServer.xml
-E:\.Net Trainning\HotelApp\HotelTourism\Model\obj\Debug\Model.dll
-E:\.Net Trainning\HotelApp\HotelTourism\Model\obj\Debug\Model.pdb

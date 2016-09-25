@@ -17,7 +17,7 @@ namespace Model
         public int RoomId { get; set; }
         public float Price { get; set; }
 
-        public virtual ICollection<RoomType> RoomTypes { get; set; }
+        public virtual RoomType RoomType { get; set; }
         public virtual Hotel Hotel { get; set; }
     }
 }

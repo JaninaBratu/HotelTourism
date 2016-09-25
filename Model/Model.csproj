@@ -55,6 +55,7 @@
     <Compile Include="FacilityRoom.cs" />
     <Compile Include="Hotel.cs" />
     <Compile Include="Rezervation.cs" />
+    <Compile Include="RezervRoom.cs" />
     <Compile Include="Room.cs" />
     <Compile Include="RoomType.cs" />
     <Compile Include="User.cs" />

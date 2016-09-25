@@ -1,5 +1,6 @@
 namespace DAL.Migrations
 {
+    using Repositories;
     using System;
     using System.Data.Entity;
     using System.Data.Entity.Migrations;
@@ -26,6 +27,8 @@ namespace DAL.Migrations
             //      new Person { FullName = "Rowan Miller" }
             //    );
             //
+           
         }
+        
     }
 }

@@ -9,14 +9,14 @@ using System.Threading.Tasks;
 namespace Model
 {
 
-    [Table("tblUser")]
-    public class User
+    [Table("tblRezervationRoom")]
+    public class RezervationRoom
     {
         [Key]
-        public int UserId { get; set; }
-        public string Username { get; set; }
-        public string Password { get; set; }
+        public int RezervationRoomId { get; set; }
 
-        public virtual ICollection<Rezervation> Rezervations { get; set; }
+        public virtual Room Room { get; set; }
+        public virtual Rezervation Rezervation { get; set; }
+
     }
 }

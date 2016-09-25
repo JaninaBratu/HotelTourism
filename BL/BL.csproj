@@ -41,6 +41,8 @@
     <Reference Include="System" />
     <Reference Include="System.ComponentModel.DataAnnotations" />
     <Reference Include="System.Core" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -49,8 +51,19 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Class1.cs" />
+    <Compile Include="CityService.cs" />
+    <Compile Include="CountyService.cs" />
+    <Compile Include="HotelService.cs" />
+    <Compile Include="Util\ComboBoxAction.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Util\ComboBoxAction.Designer.cs">
+      <DependentUpon>ComboBoxAction.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Util\DatabaseAction.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Util\ComboBoxItem.cs" />
+    <Compile Include="Util\PageAction.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
@@ -60,10 +73,6 @@
     <ProjectReference Include="..\DAL\DAL.csproj">
       <Project>{87cf560b-72e6-46ea-a2ad-8d67488d34fc}</Project>
       <Name>DAL</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\HotelTourism\HotelTourism.csproj">
-      <Project>{bf3bb448-eebb-49c6-84c9-fc9f870dd015}</Project>
-      <Name>HotelTourism</Name>
     </ProjectReference>
     <ProjectReference Include="..\Model\Model.csproj">
       <Project>{6db7edbc-d0ad-4185-9a32-31d88310e44a}</Project>

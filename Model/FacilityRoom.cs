@@ -15,8 +15,8 @@ namespace Model
         [Key]
         public int FacilityRoomId { get; set; }
 
-        public ICollection<Room> Rooms { get; set; }
-        public ICollection<Facility> Facilities { get; set; }
+        public virtual Room Room { get; set; }
+        public virtual Facility Facility { get; set; }
          
     }
 }
