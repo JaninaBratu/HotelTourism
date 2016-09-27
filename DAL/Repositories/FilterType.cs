@@ -10,7 +10,7 @@ namespace BL.Util
     {
 
         public int County { get; set; }
-        //public int City { get; set; }
+        public int City { get; set; }
         //public DateTime DateFrom { get; set; }
         //public DateTime DateTill { get; set; }
 
@@ -22,9 +22,9 @@ namespace BL.Util
         //public int Hairdryer { get; set; }
         //public int PersonalBathroom { get; set; }
 
-            //, int city, DateTime checkIn, DateTime checkOut, int airConditioner,
-            //              int plasmaTV, int bigBalcony, int refrigerator, int freeWIFI, int hairDryer, int personalBathroom
-        public FilterType(int county)
+        //, DateTime checkIn, DateTime checkOut, int airConditioner,
+        //              int plasmaTV, int bigBalcony, int refrigerator, int freeWIFI, int hairDryer, int personalBathroom
+        public FilterType(int county, int city)
         {
             County = county;
             //City = city;

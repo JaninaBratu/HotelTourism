@@ -19,7 +19,8 @@ namespace HotelTourism
     {
         //todo obiect filtre
         private const int PAGE_LIMIT = 2;
-        int countyId;
+
+        int count = 0;
 
         public RezervationForm()
         {
@@ -55,19 +56,32 @@ namespace HotelTourism
         public void InitializeComboBox()
         {
             ComboBoxAction.InitializeCountyComboBox(countyComboBox, cityComboBox);
-
+            List<ComboBoxItem> c = new List<ComboBoxItem>();
+            c.Add(new ComboBoxItem("All cities", -1));
+            cityComboBox.DataSource = c;
+            cityComboBox.DisplayMember = "Text";
+            cityComboBox.ValueMember = "Value";
+            cityComboBox.Visible = false;
         }
         private void countyComboBox_SelectedIndexChanged(object sender, EventArgs e)
         {
             var countyId = (int)countyComboBox.SelectedValue;
-            //if (countyId != -1)
-            //{
-            //    ComboBoxAction.InitializeCityComboBox(countyId, cityComboBox);
-            //}
-            //else
-            //{
-            //    cityComboBox.Visible = false;
-            //}
+
+            if (countyId == -1)
+            {
+                List<ComboBoxItem> c = new List<ComboBoxItem>();
+                c.Add(new ComboBoxItem("All cities", -1));
+                cityComboBox.DataSource = c;
+                cityComboBox.DisplayMember = "Text";
+                cityComboBox.ValueMember = "Value";
+                cityComboBox.Visible = false;
+                
+            }
+            else
+            {
+                ComboBoxAction.InitializeCityComboBox(countyId, cityComboBox);
+                
+            }
             DisplayHotels(Int32.Parse(pageTextBox.Text.ToString()));
             //set city combobox to default (all cities and show); else (hide combobox)
             // apelezi displayHotels
@@ -101,7 +115,9 @@ namespace HotelTourism
             int nrOfPages;
 
             var countyId = (int)countyComboBox.SelectedValue;
-            FilterType filterType = new FilterType(countyId);
+            var cityId = (int)cityComboBox.SelectedValue;
+
+            FilterType filterType = new FilterType(countyId, cityId);
 
             double offset = PageAction.CalculateOffset(currentPage, PAGE_LIMIT);
             List<Hotel> listOfHotels = HotelService.GetListByOffsetAndFilterType(PAGE_LIMIT, offset, filterType);

@@ -10,3 +10,17 @@ E:\.Net Trainning\HotelTourism\HotelTourism\DAL\obj\Debug\DAL.dll
 E:\.Net Trainning\HotelTourism\HotelTourism\DAL\obj\Debug\DAL.pdb
 E:\.Net Trainning\HotelTourism\HotelTourism\DAL\bin\Debug\Model.dll
 E:\.Net Trainning\HotelTourism\HotelTourism\DAL\bin\Debug\Model.pdb
+E:\.Net Trainning\HotelApp\HotelTourism\DAL\bin\Debug\DAL.dll.config
+E:\.Net Trainning\HotelApp\HotelTourism\DAL\bin\Debug\DAL.dll
+E:\.Net Trainning\HotelApp\HotelTourism\DAL\bin\Debug\DAL.pdb
+E:\.Net Trainning\HotelApp\HotelTourism\DAL\bin\Debug\EntityFramework.dll
+E:\.Net Trainning\HotelApp\HotelTourism\DAL\bin\Debug\EntityFramework.SqlServer.dll
+E:\.Net Trainning\HotelApp\HotelTourism\DAL\bin\Debug\Model.dll
+E:\.Net Trainning\HotelApp\HotelTourism\DAL\bin\Debug\Model.pdb
+E:\.Net Trainning\HotelApp\HotelTourism\DAL\bin\Debug\EntityFramework.xml
+E:\.Net Trainning\HotelApp\HotelTourism\DAL\bin\Debug\EntityFramework.SqlServer.xml
+E:\.Net Trainning\HotelApp\HotelTourism\DAL\obj\Debug\DAL.csprojResolveAssemblyReference.cache
+E:\.Net Trainning\HotelApp\HotelTourism\DAL\obj\Debug\DAL.Migrations.init_tbl.resources
+E:\.Net Trainning\HotelApp\HotelTourism\DAL\obj\Debug\DAL.csproj.GenerateResource.Cache
+E:\.Net Trainning\HotelApp\HotelTourism\DAL\obj\Debug\DAL.dll
+E:\.Net Trainning\HotelApp\HotelTourism\DAL\obj\Debug\DAL.pdb

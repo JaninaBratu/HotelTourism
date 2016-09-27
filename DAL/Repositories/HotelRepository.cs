@@ -65,7 +65,12 @@ namespace DAL.Repositories
                 {
                     result = result.Where(h=> h.City.County.CountyId == filterType.County);
                 }
-                    return result.OrderBy(h => h.HotelId)
+                if (filterType.City > 0)
+                {
+                    result = result.Where(h => h.City.CityId == filterType.City);
+                }
+
+                return result.OrderBy(h => h.HotelId)
                                     .Skip(Convert.ToInt32(offset))
                                     .Take(limit).ToList();
             }

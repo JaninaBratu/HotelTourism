@@ -37,8 +37,13 @@ namespace BL.Util
         public static void InitializeCityComboBox(int countyId, ComboBox cityComboBox)
         {
             List<City> listOfCities = CityService.GetCitiesByCounty(countyId);
-
+            
             List<ComboBoxItem> c = new List<ComboBoxItem>();
+            if (listOfCities.Count > 1)
+            {
+                c.Add(new ComboBoxItem("All cities", -1));
+            }
+
             for (int i = 0; i < listOfCities.Count; i++)
             {
                 if (countyId != -1)
@@ -49,6 +54,7 @@ namespace BL.Util
             cityComboBox.DataSource = c;
             cityComboBox.DisplayMember = "Text";
             cityComboBox.ValueMember = "Value";
+            cityComboBox.Visible = true;
         }
 
         public static bool SetComboboxVisibility(ComboBox combobox1, ComboBox combobox2)
